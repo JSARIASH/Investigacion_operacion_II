@@ -2,7 +2,9 @@
 title: "Presentacion_Branch_bround"
 author: "David Alejandro Jiménez"
 date: "August 23, 2016"
-output: beamer_presentation
+output:
+  beamer_presentation: default
+  slidy_presentation: default
 ---
 
 ## Programación binaria
@@ -227,6 +229,7 @@ solucion$solution
 
 ```{r,echo=F}
 ## grafico
+library(dplyr)
 Funobj<-c(0,45,0)
 Peso<-c(0,3,0)
 Ub<-c(0,115,79)
